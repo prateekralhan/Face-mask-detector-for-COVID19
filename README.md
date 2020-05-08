@@ -41,5 +41,14 @@ The dataset has been created using normal images of faces and then creating a cu
  
  ![plot](https://user-images.githubusercontent.com/29462447/81412091-f3b78500-9160-11ea-9d86-b6e22717e0c6.png)
 
- 4. Execute the command: **python detect_mask_image.py --image examples/your_image_name.png** to get the results
+ 4. Execute the command: **python detect_mask_image.py --image examples/your_image_name.png** to get the results :
+  
+![1](https://user-images.githubusercontent.com/29462447/81417863-76dcd900-9169-11ea-8c17-7886b9cf8128.png)
+
+![2](https://user-images.githubusercontent.com/29462447/81417890-7f351400-9169-11ea-8d7e-47f3cefdcc57.png)
+
+![4](https://user-images.githubusercontent.com/29462447/81417980-9ffd6980-9169-11ea-845a-7e377c700b9f.png)
+
+![3](https://user-images.githubusercontent.com/29462447/81417933-9247e400-9169-11ea-87e3-857e3f7fd3a5.png)
+
  5. Execute the command: **python detect_mask_video.py** to start your webcam and let the model detect face with/without mask.
