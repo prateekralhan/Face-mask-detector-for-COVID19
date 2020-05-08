@@ -17,10 +17,8 @@ For openCV installation, refer [this.](https://www.pyimagesearch.com/2018/09/19/
 ## Dataset:
 A big shoutout to [Prajna Bhandary](https://github.com/prajnasb/observations) for getting the face mask dataset. I have ensembled the dataset [here](https://drive.google.com/drive/folders/1s7uT7YIs-wCmJaf8a-Pxn1A99NaMJw6B?usp=sharing)
 This dataset consists of 1,784 images belonging to two classes:
-* with_mask
-  i. 1098 images
-* without_mask
-  i. 686 images
+* **with_mask**    - 1098 images
+* **without_mask** - 686 images
 (I need to add more images in to **without_mask** sub folder to prevent the slight imbalance here.)
 The dataset has been created using normal images of faces and then creating a custom computer vision Python script to add face masks to them, thereby creating an artificial (but still real-world applicable) dataset.
 
@@ -41,3 +39,7 @@ The dataset has been created using normal images of faces and then creating a cu
  2. Execute the command: **python train_mask_detector.py --dataset dataset** to start training your classifier. I have fine tuned the [MobileNet V2 Architecture](https://arxiv.org/abs/1801.04381) here. The classifier can be further refined using other SOTA models like ResNet101, ResNet152, InceptionV3 models etc.
  3. After the training ends, an image showcasing the training process will be saved in your directory :
  
+ ![plot](https://user-images.githubusercontent.com/29462447/81412091-f3b78500-9160-11ea-9d86-b6e22717e0c6.png)
+
+ 4. Execute the command: **python detect_mask_image.py --image examples/your_image_name.png** to get the results
+ 5. Execute the command: **python detect_mask_video.py** to start your webcam and let the model detect face with/without mask.
