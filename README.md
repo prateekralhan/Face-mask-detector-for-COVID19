@@ -51,4 +51,6 @@ The dataset has been created using normal images of faces and then creating a cu
 
 ![3](https://user-images.githubusercontent.com/29462447/81417933-9247e400-9169-11ea-87e3-857e3f7fd3a5.png)
 
+(You can see that one woman has been wrongly detected as the one with **No mask**, this is due to the fact that training data has white and blue coloured masks mostly while here the face mask has a pinkish touch to it. Refinements of the dataset and the model are already being worked on to overcome these issues.)
+
  5. Execute the command: **python detect_mask_video.py** to start your webcam and let the model detect face with/without mask.
