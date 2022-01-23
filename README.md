@@ -1,4 +1,4 @@
-# Face-mask-detector-for-COVID19
+# Face-mask-detector-for-COVID19 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Prateek-Ralhan-brightgreen.svg?colorB=ff0000)](https://prateekralhan.github.io/)
 Implemented a simple yet powerful Face mask detector for COVID 19.
 
 ## Dependencies:
